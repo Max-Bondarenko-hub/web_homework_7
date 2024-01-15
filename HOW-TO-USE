@@ -4,7 +4,7 @@
 04. CREATE DATABASE students;
 05. \q - for exit from postgres
 06. exit - for exit from docker container
-07. GO TO "WEB_HOMEWORK_7" folder link:
+07. GO TO "WEB_HOMEWORK_7" folder link: https://github.com/Max-Bondarenko-hub/web_homework_7.git
 08. alembic revision --autogenerate -m 'AutoGen'
 09. alembic upgrade head
 10. py seeds.py
