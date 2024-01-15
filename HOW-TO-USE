@@ -1,0 +1,11 @@
+01. docker run --name my-postgres -p 5432:5432 -e POSTGRES_PASSWORD=pass123 -d postgres
+02. docker exec -it my-postgres bash
+03. psql -h localhost -U postgres
+04. CREATE DATABASE students;
+05. \q - for exit from postgres
+06. exit - for exit from docker container
+07. GO TO "WEB_HOMEWORK_7" folder link:
+08. alembic revision --autogenerate -m 'AutoGen'
+09. alembic upgrade head
+10. py seeds.py
+11. py main.py
